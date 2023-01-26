@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/***********       HEADING       ************/
+.heading{
+    text-align: center;
+    line-height: 0.5em;
+    padding-top: 10px;
+}
+.heading img{
+    width: 150px;
+}
+.heading h1{}
+.heading p{
+    font-style: italic;
+}
+/***********       NAV       ************/
+.nav{
+    background-color: #5a5f8d;
+    text-align: center;
+}
+.social{
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.social img{
+    width: 30px; 
+    padding: 5px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav-list{
+    display:flex;
+    justify-content: center;
+}
+.nav-list p{
+    padding: 0 50px;
+    font-size: 20px;
+    color: white;
+}
+
+/*************** MAIN ***************/
+.main{
+    background-color: #adb2e1;
+    text-align: center;
+}
+#large-img{
+    width: 800px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid white;
+}
+.main h2{
+    color: #5b4c3d;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+.main p{
+    width: 500px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.main a{
+    text-decoration: none;
+    color: white;
+}
+.main a p{
+    background-color: #5a5f8d;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    
+}
+.img-grid img{width: 320px;padding: 10px; }
+.img-grid{
+    display: flex;
+    justify-content: center;
+    background-color: #5b4c3d;
+    margin-top: 40px;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.group p{
+    width: 300px;
+}
+
+/******** REVIEWS **********/
+.reviews{
+    text-align: center;
+    background-color: #adb2e1;
+    margin-top: -25px;
+    padding-bottom: 50px;
+}
+.reviews h1{
+    line-height: 2.5em;
+}
+.review-grid{
+    display: flex;
+    justify-content: center;
+}
+.review-item{
+    height: 400px;
+    width: 200px;
+    border-radius: 20px;
+    border: 10px double #5b4c3d;
+    margin: 0 10px;
+    background-color: #cccbed;
+}
+.star{
+    width: 120px;
+    margin-top: 15px;
+}
+.review-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.reviews span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*******FOOTER *******/
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer div{
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 2em;
+    color: #5b4c3d;
+}
+.social2 img{
+    width: 30px;
+    padding: 0 13px;
+}
+
+input{
+    border: 2px solid #5b4c3d;
+    padding: 15px;
+    font-size: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+#button{
+    background-color: #5b4c3d;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+#button:hover{
+    color: #5b4c3d;
+    border: 2px solid #5b4c3d;
+    background-color: white;
+
+}
+
+#tag{
+    font-size: 13px;
+    text-align: center;
+}
